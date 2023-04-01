@@ -1,0 +1,36 @@
+CSS
+Cashcading stylesheet
+
+fungsinya untuk memanipulasi bentuk atau styling
+pada komponen web page
+
+Anatomi dan terminologi
+dalam code css :
+
+selector {
+    property : value;
+    property : value;
+    property : value;
+}
+
+contohnya :
+
+h1 {
+    color : red;
+    font-size : 12px;
+}
+
+selector :
+1. Element, langsung nama elementnya
+   "h1" pada selectornya. nilainya : 1
+2. Class, pengunaannya di awali 
+   dengan titik ".nama-class-nya". nilainya : 10
+3. Id, pengunaannya diawali crash 
+   "#nama-id-nya". nilainya : 100
+4. Inline, pengunaannya didalam
+   tag html. nilainya : 1000
+
+Penempatan atau metode :
+1. Inline
+2. internal
+3. eksternal

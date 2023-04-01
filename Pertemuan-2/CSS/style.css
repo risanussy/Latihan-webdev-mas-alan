@@ -1,0 +1,25 @@
+h1 {
+    font-size: 82px;
+    transition: 0.3s;
+    background-color: skyblue;
+}
+
+/* pseudo class */
+/* hover */
+h1:hover {
+    color: lightblue;
+    font-size: 87px;
+    cursor: pointer;
+}
+
+.active {
+    cursor: pointer;
+}
+
+.active:active {
+    color: salmon;
+}
+
+.paraf {
+    text-align: justify;
+}
